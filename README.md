@@ -7,6 +7,7 @@
 * Autolinks
 * Disallowed Raw HTML  
 
+<br><br>
 ## Tables
 확장된 Markdown 문법에서는 표를 만들 수 있다.
 
@@ -58,7 +59,8 @@
 정렬하고자 하는 방향에 :을 찍고 -를 세 개 이상 입력하면 정렬할 수 있다.  
 가운데 정렬을 하고 싶다면 -기호 세 개 이상과 그 양 옆에 :을 찍어주면 된다.  
 
-표 안에서 |기호를 사용하고 싶다면 Escaping 문자를 사용하면 된다.   > ex3)  
+표 안에서 |기호를 사용하고 싶다면 Escaping 문자를 사용하면 된다.   
+> ex3)  
 >       | f\|oo  |
 >       | ------ |
 >       | b `\|` az |
@@ -134,7 +136,7 @@ https://www.markdownguide.org/basic-syntax/
 Markdown 기본 문법을 공부할 때 배웠듯이 상황에 따라 HTML을 혼용하는 것은 바람직한 방법이다.  
 하지만 GFM에서 HTML을 사용할 때 Markdown 컨텐츠 맥락에 맞지 않다고 판단되는 경우 HTML 태그의 실행을 막아주는 기능이 존재한다.  
 > ex1)  
-> <strong> <title> <style> <em>
+> <strong> <title> <style>
 > <blockquote>
 >   <xmp> is disallowed.  <XMP> is also disallowed.
 > </blockquote>  
