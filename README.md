@@ -20,10 +20,11 @@
 | Syntax      | Description |
 | ----------- | ----------- |
 | Header      | Title       |
-| Paragraph   | Text        |
+| Paragraph   | Text        |  
+
+<br>
 
 표를 만들 때는 칸의 크기를 일일이 맞춰주지 않아도 자동으로 완성된다.
-
 > ex1)  
 > 
 >       | Syntax      | Description |
@@ -35,29 +36,28 @@
  | Syntax      | Description |  
  | -------- | ----------- |  
  | Header | Title |  
- | Paragraph  | Text       |
+ | Paragraph  | Text       |  
+
+<br>
 
 표를 만들 때는 때에 따라 정렬을 할 수 있다.  
 정렬을 하려면 :과 세 개 이상의 -를 사용하면 된다.   
-
 > ex2)  
 > 
 >       | Syntax    | Description | Test Text |  
 >       | :---      | :-------:   | ------:  |  
 >       | Header    | Title       | Heres this |  
 
-
-
-위 코드를 공백없이 나타내면 다음과 같다.
-
+위 코드를 공백없이 나타내면 다음과 같다.  
 | Syntax    | Description | Test Text |
 | :---      | :-------:   | ------:  |
 | Header    | Title       | Heres this |
 
-
 위 코드와 표를 보고 정렬 방법을 직관적으로 알 수 있다.  
 정렬하고자 하는 방향에 :을 찍고 -를 세 개 이상 입력하면 정렬할 수 있다.  
 가운데 정렬을 하고 싶다면 -기호 세 개 이상과 그 양 옆에 :을 찍어주면 된다.  
+
+<br>
 
 표 안에서 |기호를 사용하고 싶다면 Escaping 문자를 사용하면 된다.   
 > ex3)  
@@ -73,6 +73,8 @@
 | b `\|` az |
 | b **\|** im |
 
+
+<br>
 
 표를 만들 때 몇 가지 주의 점이 있다.  
 
